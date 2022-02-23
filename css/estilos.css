@@ -631,7 +631,7 @@ Pagina descargas
   width: 100%;
   border-radius: 4px;
   background-color: transparent;
-  color: rgb(255, 255, 255);
+  color: rgb(36, 34, 34);
   font-size: 15px;
   overflow: hidden;
   transition: all 500ms ease;
@@ -641,6 +641,14 @@ Pagina descargas
   cursor: pointer;
 }
   
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #555;
+	border-bottom: 25px solid transparent;
+  padding:0, 0,0, 20, 20;
+}
 .btn::before{
     content: "";
     position: absolute;
@@ -653,9 +661,9 @@ Pagina descargas
     z-index: -1;
   }
 .btnes:hover{
-  background-color: rgb(248, 111, 8);
-  box-shadow: 0 0 10px rgb(248, 111, 8), 0 0 20px rgb(248, 111, 8), 0 0 20px rgb(248, 111, 8);
-  color: rgb(90, 85, 85); 
+  background-color: rgb(237, 24, 36);
+  box-shadow: 0 0 10px rgb(237, 24, 36), 0 0 20px rgb(237, 24, 36), 0 0 20px rgb(237, 24, 36);
+  color: rgb(241, 238, 238); 
   
 }
 
@@ -867,13 +875,13 @@ input[type=submit]:hover {
 }
 
 .marco01 {
-   background-color: rgb(237, 24, 36);
+   background-color:  rgb(248, 111, 8);
     position: absolute;
-    margin-top: 205.5px;
+    margin-top: 208px;
     margin-left: 95px;
     cursor: pointer;
     width: 128px; 
-    height: 145px;
+    height: 146px;
     text-align:center ;    
     display: flex;
     align-items: center;
@@ -881,11 +889,11 @@ input[type=submit]:hover {
 }
 
 .marco02 {
-    background-color: rgb(237, 24, 36);
-    margin-top: 205.5px;
+    background-color:  rgb(248, 111, 8);
+    margin-top: 208px;
     margin-left: 274px;
-    width: 128px; 
-    height: 145px;
+    width: 185px; 
+    height: 146px;
     cursor: pointer;
     position: absolute;
     text-align:center ;    
@@ -895,13 +903,13 @@ input[type=submit]:hover {
 }
 
 .marco03 {
-  background-color: rgb(237, 24, 36);
+  background-color:  rgb(248, 111, 8);
     position: absolute;
-    margin-top: 205.5px;
-    margin-left: 462px;
+    margin-top: 208px;
+    margin-left: 470px;
     cursor: pointer;
-    width: 153px; 
-    height: 145px;
+    width: 188px; 
+    height: 146px;
     text-align:center ;    
     display: flex;
     align-items: center;
@@ -909,23 +917,24 @@ input[type=submit]:hover {
     
 
 .marco04 {
-   background-color: rgb(237, 24, 36);
+   background-color:  rgb(248, 111, 8);
     position: absolute;
-    margin-top: 205.5px;
-    margin-left: 678px;
+    margin-top: 208px;
+    margin-left: 667px;
     cursor: pointer;
-    width: 117px; 
-    height: 145px;
+    width: 181px; 
+    height: 146px;
     text-align:center ;    
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .marco05 {
-  background-color: rgb(237, 24, 36);
+  background-color:  rgb(248, 111, 8);
   position: absolute;
-  margin-top: 205.5px;
-    margin-left: 905px;
+  margin-top: 208px;
+  margin-left: 905px;
   cursor: pointer;
   width: 119px; 
   height: 145px;
@@ -936,13 +945,13 @@ input[type=submit]:hover {
 }
 
 .marco06 {
-  background-color:  rgb(237, 24, 36);
+  background-color:   rgb(248, 111, 8);
     position: absolute;
-    margin-top: 428px;
+    margin-top: 423px;
     margin-left: 95px;
     cursor: pointer;
-    width: 200px;
-    height: 75px;
+    width: 214px;
+    height: 77px;
     text-align:center ;    
     display: flex;
     align-items: center;
@@ -951,13 +960,13 @@ input[type=submit]:hover {
 }
 
 .marco07 {
-  background-color: rgb(237, 24, 36);
+  background-color:  rgb(248, 111, 8);
     position: absolute;
-    margin-top: 428px;
-    margin-left: 343px;
+    margin-top: 423px;
+    margin-left: 318px;
     cursor: pointer;
-    width: 120px;
-    height: 75px;
+    width: 232px;
+    height: 77px;
     text-align:center ;    
     display: flex;
     align-items: center;
@@ -965,26 +974,28 @@ input[type=submit]:hover {
 }
 
 .marco08 {
-  background-color: rgb(237, 24, 36);
+  background-color:  rgb(248, 111, 8);
     position: absolute;
-    margin-top: 428px;
-    margin-left: 523px;
+    margin-top: 423px;
+    margin-left: 559px;
     cursor: pointer;
-    width: 200px;
-    height: 75px;
+    width: 242px;
+    height: 77px;
     text-align:center ;    
     display: flex;
     align-items: center;
+    justify-content: center;
+
 }
 
 .marco09 {
-  background-color: rgb(237, 24, 36);
+  background-color:  rgb(248, 111, 8);
     position: absolute;
-    margin-top: 428px;
-    margin-left: 773px;
+    margin-top: 423px;
+    margin-left: 811px;
     cursor: pointer;
-    width: 212px;
-    height: 75px;
+    width: 214px;
+    height: 77px;
     text-align:center ;    
     display: flex;
     align-items: center;
